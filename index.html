@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Registration</h1>
+      <hr />
+      <form action="#">
+        <div class="row-1">
+          <div class="name">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              aria-label="name"
+              placeholder="Enter Full Name"
+            />
+          </div>
+          <div class="username">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              aria-label="username"
+              placeholder="Enter Username"
+            />
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" aria-label="email" placeholder="Enter Email" />
+          </div>
+          <div class="phone">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tell"
+              aria-label="phone number"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="password">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              aria-label="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="confirm-password">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              aria-label="confirm password"
+              placeholder="Confirm Password"
+            />
+          </div>
+        </div>
+        <div class="row-4">
+          <div class="radio-btn">
+            <h2>Gender</h2>
+            <input type="radio" aria-label="male" name="gender" />
+            <label for="male">Male</label>
+            <input type="radio" aria-label="female" name="gender" />
+            <label for="female">Female</label>
+            <input type="radio" aria-label="other" name="gender" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="row-5">
+          <button type="submit" class="register-btn">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
